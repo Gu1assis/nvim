@@ -38,7 +38,7 @@ return {
       "MunifTanjim/nui.nvim",
     },
     keys = {
-      { "e", ":Neotree toggle<CR>", desc = "Toggle File Tree" },
+      { "<leader>e", ":Neotree toggle<CR>", desc = "Toggle File Tree" },
     },
   },
 
@@ -47,9 +47,9 @@ return {
     "ibhagwan/fzf-lua",
     dependencies = { "nvim-tree/nvim-web-devicons" },
     keys = {
-      { "ff", function() require("fzf-lua").files() end, desc = "Buscar arquivos" },
-      { "fg", function() require("fzf-lua").live_grep() end, desc = "Buscar texto" },
-      { "fs", function() require("fzf-lua").lsp_document_symbols() end, desc = "Buscar símbolos" },
+      { "<leader>ff", function() require("fzf-lua").files() end, desc = "Buscar arquivos" },
+      { "<leader>fg", function() require("fzf-lua").live_grep() end, desc = "Buscar texto" },
+      { "<leader>fs", function() require("fzf-lua").lsp_document_symbols() end, desc = "Buscar símbolos" },
     },
   },
 

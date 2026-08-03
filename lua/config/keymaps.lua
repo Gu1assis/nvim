@@ -13,3 +13,7 @@ keymap("n", "<leader>w", ":bdelete<CR>", { silent = true, desc = "Fechar arquivo
 -- Split da tela
 keymap("n", "<leader>sv", ":vsplit<CR>", { silent = true, desc = "Split vertical" })
 keymap("n", "<leader>sh", ":split<CR>", { silent = true, desc = "Split horizontal" })
+
+-- File Explorer
+keymap("n", "e", ":Exp<CR>", { silent = true, desc = "Abrir explorer"})
+
